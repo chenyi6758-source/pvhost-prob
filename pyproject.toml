@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pvhost-prob"
+version = "0.1.0"
+description = "Probabilistic (stochastic) PV hosting capacity for distribution feeders, built on pandapower"
+readme = "README.md"
+license = { text = "BSD-3-Clause" }
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas", "matplotlib", "scipy", "pandapower"]
+authors = [{ name = "Chen Yi", email = "chenyi6758@gmail.com" }]
+
+[project.urls]
+Homepage = "https://github.com/chenyi6758-source/pvhost-prob"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
