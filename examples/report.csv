@@ -1,0 +1,10 @@
+metric,value
+deterministic_hc_kw_per_bus,15.0
+deterministic_hc_kw_total,90.0
+probabilistic_hc_kw_per_bus_risk_1%,15.0
+probabilistic_hc_kw_per_bus_risk_5%,16.25
+probabilistic_hc_kw_per_bus_risk_10%,17.5
+locational_hc_kw_LV1,187.5
+locational_hc_kw_LV5,120.0
+locational_hc_kw_LV9,73.12
+locational_hc_kw_LV11,60.62
